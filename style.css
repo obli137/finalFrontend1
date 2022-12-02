@@ -177,7 +177,7 @@ font-size: 16px;
 
 .d-item p {
     height: 104px;
-    width: 500px;
+    width: 80vw;
     font-size: 16px;
     font-weight: 500;
     color: #B3B2B7;
@@ -439,7 +439,8 @@ main {
     margin-bottom: 20vh;
 }
 .contenedorTitular h1{
-    width: 110%;
+    width: 100vw;
+    margin-right: 10vw;
 
 }
 .contenedorTitular p{
@@ -496,6 +497,8 @@ main {
     align-self: flex-start;
     line-height: 30px;
     text-align: left;
+    padding-right: 10vw;
+    margin-right: 10vw;
 }
     
 .container-differentials {
@@ -504,11 +507,12 @@ main {
     margin-top: 5vh;
     background-color: white;
     height: 100vh;
-    width: ;
+    width: 100vw;
 }
 
 .d-item  {
     height: 25vh;
+
 
 }
 
@@ -532,13 +536,14 @@ main {
 
 
 .d-item p{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 30px;
     color:  #B3B2B7;
     height: 130px;
     width: 95vw;
     padding-top: 3vh;
     margin-bottom: 5vh;
+    margin-right: 10vw;
 }
 
 .num1, .num2, .num3 {
@@ -620,6 +625,7 @@ footer {
     height: 60vh;
     width: 100vw;
 }
+
 form {
     margin-bottom: 5vh;
 }
@@ -636,7 +642,9 @@ form input {
 .container-logos-iconos{
     order: 1;
     margin-bottom: 10vh;
-
+}
+.container-logos-iconos a{
+align-self: center;
 }
 .iconos {
     width: 100vw;
@@ -644,10 +652,10 @@ form input {
 .logo-blanco-mobile {
 align-self: center;
 margin-bottom: 5vh;
-
 }
+
 footer p{
 left: 30vw;
-
 }
+
 }
