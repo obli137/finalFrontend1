@@ -1,0 +1,653 @@
+
+/* GENERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p, ul, li, a {
+font-family: 'Be Vietnam Pro', sans-serif;
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+button {
+    border: none;
+}
+
+a:link {
+        text-decoration:none; 
+    } 
+a:visited {
+        text-decoration:none; 
+    }
+
+    /* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+
+
+header nav a:hover{
+    color: red;
+}
+
+.contact {
+    background-color: #8B48BF;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+header .contact {
+    -webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.31);
+box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.31);
+}
+
+.contact:hover{
+    background-color:#3CDDF3;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a{
+    font-size: 1em;
+}
+
+header nav a  {
+margin: 1.5vh;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+/*Fin HEADER */
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+    margin-top: 10vh;
+}
+
+.contenedorTitular{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 40vw;
+}
+
+.contenedorTitular h1 {
+    width: 40%;
+    color: #232C50;
+    font-size: 3em;
+    width: 30vw;
+    margin-bottom: 0;
+    text-align: right;
+    margin-bottom: 5vh;
+}
+
+.contenedorTitular p {
+    font-size: 1em;
+    width: 30vw;
+    text-align: right;
+    margin-bottom: 3vh;
+}
+
+.boton-main{
+    width: 30vw;
+    text-align: right;
+}
+
+
+/* SECCION DIFFERENCIALES */
+
+.differentials {
+    height: 70vh;
+    width: 100vw;
+}
+.differentials-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8B48BF;
+    color: white;
+    height: 20vh;
+    width: 100vw;
+}
+.solo-mobile {
+    display: none;
+}
+.differentials-head p {
+width: 40%;
+font-size: 16px;
+}
+.differentials-head h2 {
+    width: 40vw;
+}
+
+/* DIFERENCIALES 1 2 y 3 */
+
+.container-differentials{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: space-around;
+    position: relative;
+}
+
+.d-item {
+    height: 20vh;
+    width: 30vw;
+    margin: 5vh;
+    position: relative;
+
+}
+
+
+
+.d-item p {
+    height: 104px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B3B2B7;
+    text-align: left;
+}
+
+.diff3 {
+    align-self: end;
+    position: absolute;
+    margin-bottom: 5vh;
+    left: 30vw;
+}
+
+.diff3 div{
+    position: absolute;
+    left: -80px;
+    top: 8px
+}
+
+.d-item div {
+position: absolute;
+left: -80px;
+top: -8px
+}
+
+
+/* MEJORES JUGADORES */
+
+.best-players {
+    height: 95vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.best-players button {
+    background-color: #8B48BF;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    margin: 5vh;
+    opacity: 0.7;
+    border: none;
+}
+
+.best-players h2 {
+align-self: center;
+margin-bottom: 20vh;
+color: #323851;
+}
+
+.container-players {
+    display: flex;
+}
+
+.contenedor-player {
+    width: 30vw;
+    height: 30vh;
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-player p {
+    color: #B3B2B7;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-player img {
+    position: absolute;
+    left: 43%;
+    top: -15%;
+}
+.best-players button:hover{
+background-color:#3CDDF3;
+color: black;
+}
+
+/* CALL TO ACTION */
+
+.go-for-it{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8B48BF;
+    color: white;
+}
+
+.go-for-it h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    width: 30vw;
+}
+
+.go-for-it button{
+    background-color: white;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    color: #8B48BF;
+    border: none;
+}
+
+.go-for-it button:hover{
+    background-color:#3CDDF3;
+    color: black;
+}
+.mobile{
+    display: none;
+}
+
+/* FOOTER */
+
+footer {
+    height: 30vh;
+    width: 100vw;
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.container-logos-iconos {
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.iconos{
+display: flex;
+justify-content: space-around;
+width: 12vw;
+}
+
+.navfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navfooter ul {
+    margin-right: 15%;
+}
+
+form {
+    align-self: start;
+    margin-top: 8vh;
+    margin-right: 5vw;
+
+}
+form button {
+    background-color:#8B48BF;
+    color: white;
+    width: 63px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    border: none
+}
+
+form input {
+    width: 201px;
+    height: 40px;
+    color: #A0A0A0;
+    border-radius: 50px;
+}
+
+footer ul a li {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    margin-right: 5vw;
+    width: 150px;
+}
+
+footer p {
+    position: absolute;
+    right: 12vw;
+    bottom: 5%;
+    color: #8C8C94;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+ form button:hover{
+    background-color:#3CDDF3;
+    color: #1E1E26;
+ }
+
+
+
+
+
+
+
+/* VERSION MOBILE */
+/* VERSION MOBILE */
+/* VERSION MOBILE */
+/* VERSION MOBILE */
+
+
+@media (max-width: 480px)  {
+
+/*HEADER*/
+header{
+    height: 20vh;
+    width: 100vw;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: none;
+}
+
+.hamburguesa{
+    display: block;
+    min-height: 35px;
+    min-width: 46px;
+    margin-right: 20vw;
+}
+
+.logo{
+    margin-left: 20vw;
+}
+
+/* MAIN*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-direction: column;
+    height: 120vh;
+    width: 100vw;
+}
+.contenedorImagenPrincipal img {
+    max-width: 90%;
+    margin-bottom:15vh ;
+    margin-left: 10vw;
+}
+
+.contenedorTitular{
+    text-align: end;
+    width: 80vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-bottom: 20vh;
+}
+.contenedorTitular h1{
+    width: 110%;
+
+}
+.contenedorTitular p{
+    font-size: 1em;
+    line-height: 26px;
+    font-weight: 500;
+    height: 75px;
+    width: 100%;
+}
+
+.contenedorTitular a{
+    display: block;
+    align-self: flex-end;
+}
+
+.boton-main{
+    align-self: flex-end;
+}
+
+/*DIFERENCIALES */
+
+.desktop {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+
+
+.differentials-head {
+    flex-direction: column;
+    background-color: #3CDDF3;
+    height: 45vh;
+    width: 100vw;
+    padding-left: 10vh;
+}
+
+
+.differentials-head h2{
+    font-size: 2em;
+    width: 80%;
+    align-self: flex-start;
+    justify-self: start;
+}
+
+.differentials{
+    height: 100vh;
+    width: 100vw;
+}
+
+.differentials-head p{
+    width: 93%;
+    font-size: 1em;
+    align-self: flex-start;
+    line-height: 30px;
+    text-align: left;
+}
+    
+.container-differentials {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5vh;
+    background-color: white;
+    height: 100vh;
+    width: ;
+}
+
+.d-item  {
+    height: 25vh;
+
+}
+
+.d-item h3 {
+    background-color:rgba(136, 72, 191, 0.3);
+    width: 95vw;
+    height: 43px;
+    margin-left: 5%;
+    padding-left: 15vw;
+    margin-right: 0%;
+    margin-top: 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #323851;
+    z-index: 600;
+
+}
+
+
+
+.d-item p{
+    font-size: 1.1em;
+    line-height: 30px;
+    color:  #B3B2B7;
+    height: 130px;
+    width: 95vw;
+    padding-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.num1, .num2, .num3 {
+    position: absolute;
+    left: 15vw;
+    top: 1vh;
+}
+
+
+/* PLAYERS */
+
+.best-players {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    margin-top: 370px;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.best-players h2{
+    z-index: 500;
+    margin-top: 400px;
+    margin-bottom: 100px;
+    font-size: 2.5em;
+    color: #242E53;
+}
+
+.container-players{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenedor-player {
+    width: 445px;
+    height: 240px;
+}
+.contenedor-player h3{
+    margin-top: 25%;
+    color: #232C50;
+}
+.contenedor-player p{
+    width: 390px;
+    line-height: 25px;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.best-players button {
+    opacity: 1;
+}
+
+/* Go For IT */
+
+.go-for-it{
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+    background-color: #3CDDF3;
+}
+
+.go-for-it h3 {
+    text-align: center;
+    width: 320px;
+    margin-bottom: 0px;
+}
+.go-for-it button {
+    background-color: #232C50;
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    flex-direction: column;
+    height: 60vh;
+    width: 100vw;
+}
+form {
+    margin-bottom: 5vh;
+}
+footer form {
+    order:-1;
+    align-self: center;
+}
+
+form input {
+    width: 308px;
+    margin-right: 5vw;
+}
+
+.container-logos-iconos{
+    order: 1;
+    margin-bottom: 10vh;
+
+}
+.iconos {
+    width: 100vw;
+}
+.logo-blanco-mobile {
+align-self: center;
+margin-bottom: 5vh;
+
+}
+footer p{
+left: 30vw;
+
+}
+}
